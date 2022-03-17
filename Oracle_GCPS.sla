@@ -1,0 +1,90 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "SnapLogic-PS-Team"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Oracle_GCPS"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 1000
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "SSL_CONNECT": {
+                        "value": false
+                    },
+                    "databaseName": {
+                        "value": "RVMTP.AMGEN.COM"
+                    },
+                    "hostname": {
+                        "value": "USLV-PDBV-OR03.AMGEN.COM"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "password": {
+                        "fp": "9207eb494545fc4f2dc7c4c82154a174471ac326432005090fb071e53e4bdba6",
+                        "key": "account-cloud-managed-576a3146a415f5247c551d16-2016-06-22T06:33:55-316259",
+                        "value": "Qrqm/GJS7C22wZMHknNEodG7717BnxRNDqFoHIAg286jaQur9QCx8BV1WpkPF477LQODXujcjspw7upjC5Jm/nxcavqpG2OTN+T6H4UKQGejZf+e9M9y7DfNjv4/v7SucarPg3IRfzt5EiuQZbUlkNKde0HE10xBo2MwYEy4hrAkAMfzSt9WBs1fe19Jadad3d7hrTLHwCbSX1Vhf52rBt8AhdcJelBvvyxRlp6rENb/RkoesjtuVwog7txqd1OTbQi39qNbdH8GQ2ePWiUORqgPZXVhgB8IqCjiVydcUaEV6wVr9Tv7rXpBHgwALq54nxkZYBmNzHWJ0CLkY/N6Fw=="
+                    },
+                    "portNumber": {
+                        "value": 1771
+                    },
+                    "username": {
+                        "value": "GCPS_EDL"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
